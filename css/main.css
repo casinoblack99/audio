@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mk{
+    padding-top:15px;
+    padding-left: 12%;
+    font-style: italic;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+    color: gold;
+}
+li{  
+    display: inline-block;
+    justify-content:space-evenly;
+    padding-right: 150px;
+    padding-top: 20px;
+    /* text-decoration: none; */
+}
+
+ul{
+    float: right;
+    /* text-decoration: none; */
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+}@media screen and (max-width:450px){
+
+    nav{
+        height:50% ;
+    }
+}
+
+@media screen and (max-width:1044px){
+    ul{
+        flex-direction: column;
+        background-color: black;
+        padding-left: 50%; 
+    }
+}
+
+
+header{
+    background-image: url(../images/malte-wingen-PDX_a_82obo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.music{
+    margin-top: 39.5%;
+    width: 100%;
+}
